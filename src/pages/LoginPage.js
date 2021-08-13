@@ -70,10 +70,10 @@ export default function LoginPage() {
 			</form>
 
 			<div style={{ display: "flex", justifyContent: "space-between" }}>
-				<Link href="/register" onClick={(e) => e.preventDefault}>
+				<Link href="#" onClick={(e) => history.push("/register")}>
 					Register
 				</Link>
-				<Link href="/reset-password" onClick={(e) => e.preventDefault}>
+				<Link href="#" onClick={(e) => history.push("/reset-password")}>
 					Forgot password?
 				</Link>
 			</div>

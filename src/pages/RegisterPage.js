@@ -88,7 +88,7 @@ export default function RegisterPage() {
 				</Button>
 			</form>
 			<div style={{ display: "flex", justifyContent: "flex-end" }}>
-				<Link href="/login" onClick={(e) => e.preventDefault}>
+				<Link href="#" onClick={(e) => history.push("/login")}>
 					Login
 				</Link>
 			</div>
