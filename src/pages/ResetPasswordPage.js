@@ -1,17 +1,15 @@
-import { useAuth } from "../use-auth";
+
 import { useHistory } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import { useForm } from "react-hook-form";
 
 export default function ResetPasswordPage() {
-	const auth = useAuth();
 	const history = useHistory();
 
 	const {
 		register,
 		handleSubmit,
-		formState: { errors },
 	} = useForm();
 	const onSubmit = (data) => {
 		history.push("/login");

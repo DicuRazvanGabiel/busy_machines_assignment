@@ -12,7 +12,6 @@ export default function LoginPage() {
 	const {
 		register,
 		handleSubmit,
-		formState: { errors },
 	} = useForm();
 	const onSubmit = async (data) => {
 		console.log(data)

@@ -1,10 +1,9 @@
-import { useAuth } from "../use-auth";
+
 import { useHistory } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 
 export default function InfoPage() {
-	const auth = useAuth();
 	const history = useHistory();
 	return (
 		<div
